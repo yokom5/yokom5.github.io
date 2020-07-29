@@ -1,0 +1,31 @@
+.Profile {
+    min-height: 30vh;
+    min-width: 50vw;
+}
+
+.Profile-box {
+    min-height: 30vh;
+    min-width: 50vw;
+    margin: 2em auto;
+    padding: 0.2em 1em;
+    border: 1px solid gray;
+    max-width: 500px;
+    border-radius:10px;
+    overflow: hidden;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    background: transparent;
+    color: navy;
+    text-align: left;
+    font-size: calc(4px + 2vmin);
+}
+.Profile-border {
+    margin: 1em auto;
+}
+
+.Profile-title {
+    font-size: calc(10px + 2vmin);
+    line-height: 2.5em;
+}

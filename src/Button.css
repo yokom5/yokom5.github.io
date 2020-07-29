@@ -1,0 +1,23 @@
+.Button {
+    font-size: calc(1px + 2vmin);
+    margin: 1em 0.5em;
+    padding: 0.2em 1em;
+    border: 1px solid gray;
+    max-width: 500px;
+    border-radius:10px;
+    overflow: hidden;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    background: transparent;
+    color: navy;
+}
+
+.Button:hover{
+    background: rgba(153,153,204,0.1);
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
