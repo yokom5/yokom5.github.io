@@ -1,12 +1,11 @@
 .App {
   min-height: 80vh;
-  background-image: url("/mak-PDvW6vyDdoo-unsplash.jpg");
   background-color: rgba(255,255,255,0.8);
   background-blend-mode: lighten;
   background-position: top;
   background-attachment: fixed;
   text-align: center;
-  font-family: 'Nunito Sans', serif;
+  font-family: 'Recursive', serif;
   font-size: 10px;
   padding: 10% 0%;
 }
@@ -14,12 +13,6 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {

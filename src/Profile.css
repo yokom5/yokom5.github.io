@@ -29,3 +29,7 @@
     font-size: calc(10px + 2vmin);
     line-height: 2.5em;
 }
+
+section {
+    margin: 1em auto;
+}

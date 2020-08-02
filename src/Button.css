@@ -2,7 +2,6 @@
     font-size: calc(1px + 2vmin);
     margin: 1em 0.5em;
     padding: 0.2em 1em;
-    border: 1px solid gray;
     max-width: 500px;
     border-radius:10px;
     overflow: hidden;
@@ -12,6 +11,12 @@
     transition: all .25s ease-in-out;
     background: transparent;
     color: navy;
+}
+
+img {
+    max-width: 1.5vw;
+    min-width: 10px;
+    margin: auto 0.5em;
 }
 
 .Button:hover{
