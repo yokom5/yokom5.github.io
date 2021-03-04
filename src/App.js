@@ -6,12 +6,12 @@ import Menu from "./Menu";
 
 function App() {
     return (
-        <Box className="App">
-            <Grid container spacing={3}>
-                <Grid item xs={12}>
+        <Box>
+            <Grid container spacing={3} alignItems={"center"} justify={"center"}>
+                <Grid item xs={12} justify={"center"}>
                     <Menu/>
                 </Grid>
-                <Grid item xs={12}>
+                <Grid item xs={12} justify={"center"}>
                     <Profile/>
                 </Grid>
             </Grid>

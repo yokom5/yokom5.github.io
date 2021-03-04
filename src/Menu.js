@@ -9,7 +9,13 @@ import HotTubIcon from '@material-ui/icons/HotTub';
 
 const useStyles = makeStyles({
     root: {
-        width: 500,
+        minWidth: 400,
+        maxWidth: "80%",
+        margin: "10% auto 5%",
+        alignContent: "center",
+        alignItems: "center",
+        justifyContent: "center",
+        justifyItems: "center",
     },
 });
 
@@ -24,7 +30,7 @@ export default function Menu() {
                 setValue(newValue);
             }}
             showLabels
-            className={classes.root}
+            classes={classes.root}
         >
             <BottomNavigationAction label="Recents" icon={<RestoreIcon />} />
             <BottomNavigationAction label="Github" icon={<GitHubIcon />} href={"https://github.com/yokom5"}/>

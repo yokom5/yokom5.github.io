@@ -18,13 +18,14 @@ export default class Profile extends Component {
                         </ListItemText>
                     </ListItem>
                     <ListItem alignItems={"flex-start"}>
-                        <ListItemText
-                            primary={"Skill"}
-                        >
-                            <React.Fragment>
-                                {"hoge"}
-                            </React.Fragment>
-                        </ListItemText>
+                        <OutlinedCard
+                            date={"2020.01-"}
+                            position={"Web Engineer"}
+                            company={"株式会社アップステアーズ"}
+                            url={"https://www.upstairs.co.jp/"}
+                            resume={"Develop Web Application"}
+                            skil={"PHP(Laravel), JavaScript(Vue), AWS, Git, PostgreSQL, MySQL"}
+                        />
                     </ListItem>
                     <ListItem alignItems={"flex-start"}>
                         <OutlinedCard
@@ -32,26 +33,9 @@ export default class Profile extends Component {
                             position={"System Engineer"}
                             company={"株式会社アイ・ティー・ワン"}
                             url={"https://www.it-one.co.jp/"}
-                            skil={"Create Web Service, Java, Linux, AWS, Subversion"}
+                            resume={"Develop Web Service"}
+                            skil={"Java, Linux, AWS, Oracle, Subversion"}
                         />
-                    </ListItem>
-                    <ListItem alignItems={"flex-start"}>
-                    <OutlinedCard
-                            date={"2020.01-"}
-                            position={"Web Engineer"}
-                            company={"株式会社アップステアーズ"}
-                            url={"https://www.upstairs.co.jp/"}
-                            skil={"Create Web Application, PHP(Laravel), JavaScript(Vue), AWS, Git"}
-                        />
-                    </ListItem>
-                    <ListItem alignItems={"flex-start"}>
-                        <ListItemText
-                            primary={"Activity"}
-                        >
-                            <React.Fragment>
-                                {"hoge"}
-                            </React.Fragment>
-                        </ListItemText>
                     </ListItem>
                 </List>
             </Container>
