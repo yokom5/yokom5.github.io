@@ -34,7 +34,9 @@ export default class Profile extends Component {
                             url={"https://www.it-one.co.jp/"}
                             skil={"Create Web Service, Java, Linux, AWS, Subversion"}
                         />
-                        <OutlinedCard
+                    </ListItem>
+                    <ListItem alignItems={"flex-start"}>
+                    <OutlinedCard
                             date={"2020.01-"}
                             position={"Web Engineer"}
                             company={"株式会社アップステアーズ"}
